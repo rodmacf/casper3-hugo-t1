@@ -152,5 +152,11 @@ fields:
     - type: boolean
       name: disableInlineCSS
       label: disableInlineCSS
+- name: ignoreErrors
+  type: text
+  config:
+    required: false
+  label: ignoreErrors
+  default: ' ["error-remote-getjson"] '
 pages:
 - config.toml
